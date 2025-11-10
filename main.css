@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+	align-items: center;
+}
+
+.card1 {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	background-color: #e28625;
+	color: white;
+	border-radius: 15px 15px 0px 0px;
+	width: 30%;
+	gap: 25px;
+}
+
+.carre {
+	position: relative;
+	top: 16px;
+	width: 30px;
+	height: 30px;
+	border-radius: 99px;
+	background-color: black;
+	opacity: 0.2;
+}
+
+.carre2 {
+	position: relative;
+	top: 15px;
+	width: 30px;
+	height: 30px;
+	border-radius: 99px;
+	background-color: black;
+	opacity: 0.2;
+}
+
+.carre3{
+    	position: relative;
+	top: 15px;
+	width: 30px;
+	height: 30px;
+	border-radius: 99px;
+	background-color: black;
+	opacity: 0.2;
+}
+
+.one {
+	position: absolute;
+	top: 50px;
+	left: 660px;
+	width: 3%;
+}
+
+.two {
+	position: absolute;
+	top: 368px;
+	left: 660px;
+	width: 3%;
+}
+
+.three {
+	position: absolute;
+    top:709px;
+	left: 660px;
+	width: 3%;
+}
+
+.rec1 {
+	width: 88%;
+}
+
+.rec2 {
+	width: 80%;
+}
+
+.title {
+	font-family: Big Shoulders;
+	font-size: 40px;
+}
+
+p {
+	font-family: Lexend Deca;
+}
+
+.card2 {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	background-color: #006971;
+	color: white;
+	width: 30%;
+	gap: 25px;
+}
+
+.card3 {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	background-color: #004140;
+	color: white;
+    border-radius: 0px 0px 15px 15px;
+	width: 30%;
+	gap: 25px;
+}
+
+
+.lea1{
+    width: 50%;
+    padding: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-family: Lexend Deca;
+    color: #E28625;
+}
+
+.lea2{
+    width: 50%;
+    color: #006971;
+    border: none;
+    font-family: Lexend Deca;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.lea3{
+    width: 50%;
+    color: #004140;
+    border: none;
+    font-family: Lexend Deca;
+    border-radius: 25px;
+    padding: 15px;
+}
