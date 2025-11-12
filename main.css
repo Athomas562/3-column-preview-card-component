@@ -27,7 +27,7 @@ main {
 	color: white;
 	border-radius: 15px 15px 0px 0px;
 	width: 30%;
-	gap: 25px;
+	gap: 45px;
 }
 
 .carre {
@@ -69,14 +69,14 @@ main {
 
 .two {
 	position: absolute;
-	top: 368px;
+	top: 428px;
 	left: 660px;
 	width: 3%;
 }
 
 .three {
 	position: absolute;
-    top:709px;
+    top:827px;
 	left: 660px;
 	width: 3%;
 }
@@ -105,7 +105,7 @@ p {
 	background-color: #006971;
 	color: white;
 	width: 30%;
-	gap: 25px;
+	gap: 45px;
 }
 
 .card3 {
@@ -116,9 +116,26 @@ p {
 	color: white;
     border-radius: 0px 0px 15px 15px;
 	width: 30%;
-	gap: 25px;
+	gap: 45px;
 }
 
+.lea1:hover{
+    background-color: #E28625;
+    color: white;
+    border:1px solid white;
+}
+
+.lea2:hover{
+    background-color: #006971;
+    color: white;
+    border: 1px solid white;
+}
+
+.lea3:hover{
+	background-color: #004140;
+    color: white;
+    border: 1px solid white;
+}
 
 .lea1{
     width: 50%;
